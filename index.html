@@ -6,43 +6,60 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <!-- Hero -->
-        <section class="et-hero-tabs">
-            <h1>STICKY SLIDER NAV</h1>
-            <h3>Sliding content with sticky tab nav</h3>
-            <div class="et-hero-tabs-container">
-                <a class="et-hero-tab" href="#tab-es6">ES6</a>
-                <a class="et-hero-tab" href="#tab-flexbox">Flexbox</a>
-                <a class="et-hero-tab" href="#tab-react">React</a>
-                <a class="et-hero-tab" href="#tab-angular">Angular</a>
-                <a class="et-hero-tab" href="#tab-other">Other</a>
-                <span class="et-hero-tab-slider"></span>
-            </div>
-        </section>
-
-        <!-- Main -->
-        <main class="et-main">
-            <section class="et-slide" id="tab-es6">
-                <h1>ES6</h1>
-                <h3>something about es6</h3>
+        <div class="navigationMenu">
+            <a class="navbar" href="#home">HOME</a>
+            <a class="navbar" href="#about">ABOUT</a>
+            <a class="navbar" href="#tour">TOUR</a>
+            <a class="navbar" href="#merch">MERCH</a>
+            <a class="navbar" href="#contact">CONTACT</a>
+        </div>
+        <div>
+            <section class="section" id="home">
+                <h1>Bring Me The Horizon</h1>
+                <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
             </section>
-            <section class="et-slide" id="tab-flexbox">
-                <h1>Flexbox</h1>
-                <h3>something about flexbox</h3>
+            <section class="section" id="about">
+                <h1>About</h1>
+                <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
             </section>
-            <section class="et-slide" id="tab-react">
-                <h1>React</h1>
-                <h3>something about react</h3>
+            <section class="section" id="tour">
+                <h1>Tour</h1>
+                <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
             </section>
-            <section class="et-slide" id="tab-angular">
-                <h1>Angular</h1>
-                <h3>something about angular</h3>
+            <section class="section" id="merch">
+                <h1>Merch</h1>
+                <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
             </section>
-            <section class="et-slide" id="tab-other">
-                <h1>Other</h1>
-                <h3>something about other</h3>
+            <section class="section" id="contact">
+                <h1>Contact</h1>
+                <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
+                <div>
+                    <h1>Contact Us</h1>
+                    <form id="contactForm">
+                        <div class="name">
+                            <label for="nameInput"></label>
+                            <input type="text" placeholder="Name" id="nameInput" required>
+                        </div>
+                        <div class="email">
+                            <label for="emailInput"></label>
+                            <input type="email" placeholder="Email" id="emailInput" required>
+                        </div>
+                        <div class="telephone">
+                            <label for="telephoneInput"></label>
+                            <input type="number" placeholder="Phone number" id="telephoneInput"
+                                   required>
+                        </div>
+                        <div class="message">
+                            <label for="messageInput"></label>
+                            <textarea placeholder="I'd like to chat about"
+                                      id="messageInput" cols="30" rows="5" required></textarea>
+                        </div>
+                        <div class="submit">
+                            <input type="submit" value="Send Message" id="form_button"/>
+                        </div>
+                    </form>
+                </div>
             </section>
-        </main>
-        <script src="script.js"></script>
+        </div>
     </body>
 </html>
