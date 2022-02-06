@@ -13,11 +13,45 @@ a {
 .section {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    /*align-items: center;*/
-    height: 80vh;
+    /*justify-content: center;*/
+    height: 90vh;
     background: #eee;
-    /*text-align: center;*/
+}
+
+#home {
+    height: 100vh;
+    /*background-image: linear-gradient(#3A015C, #4F0147, #35012C, #290025);*/
+    /*background-image: radial-gradient(#eff1f3, #dbd3d8, #223843, #d8b4a0);*/
+    background-color: #eeeeee;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+}
+
+#about {
+    background-image: url("media/second.png");
+    background-repeat: no-repeat;
+    background-size: 900px;
+    background-color: black;
+}
+
+#tour {
+    background-image: url("media/obey.png");
+    background-repeat: repeat;
+    background-position: center;
+    background-size: 35%;
+}
+
+#merch {
+    background-image: url("media/logoMantra.png");
+    background-repeat: repeat;
+}
+
+#contact {
+    height: 50vh;
+    background-image: url("media/bmth-wallpaper.png");
+    background-repeat: repeat;
+    background-size: 50%;
 }
 
 .section h1 {
@@ -26,7 +60,7 @@ a {
     letter-spacing: 1rem;
 }
 
-.section h3 {
+.section h2 {
     font-size: 1rem;
     letter-spacing: 0.3rem;
     opacity: 0.6;
@@ -56,7 +90,7 @@ a {
 
 .navbar:hover {
     color: white;
-    background: #646263;
+    background: #d4b863;
     transition: all 0.5s ease;
 }
 
@@ -77,43 +111,30 @@ input {
     border-radius: 5px;
 }
 
-.section1 {
-    text-align: center;
+.square-container {
     display: flex;
-    flex-direction: column;
-    padding: 0 25px 5px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.section2 {
+.square {
+    position: relative;
+    height: 30vh;
+    width: 30vh;
+    margin: 15px;
+    border: 1px solid;
+    border-radius: 30px;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.square .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
-
-.section2Input {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    padding: 0 29px 5px;
-}
-
-.section3 {
-    text-align: center;
-}
-
-.section3Input {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    padding: 5px 29px 5px;
-}
-
-.section4 {
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-}
-
-.submitContainer {
-    text-align: center;
-}
-
