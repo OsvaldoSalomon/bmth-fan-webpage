@@ -2,122 +2,80 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Bring Me The Horizon</title>
+        <title>Webpage Practice</title>
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <div class="navigationMenu">
             <a class="navbar" href="#home">HOME</a>
-            <a class="navbar" href="#about">ABOUT</a>
-            <a class="navbar" href="#tour">TOUR</a>
-            <a class="navbar" href="#merch">MERCH</a>
-            <a class="navbar" href="#contact">CONTACT</a>
+            <a class="navbar" href="#section1">SECTION 2</a>
+            <a class="navbar" href="#section3">SECTION 3</a>
+            <a class="navbar" href="#section4">SECTION 4</a>
         </div>
         <div>
             <section class="section" id="home">
-                <h1>Bring Me The Horizon</h1>
-                <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
-                <h2>New Album Released</h2>
-                <h2>Stream on all platforms now</h2>
+                <h1>This is a webpage of my musical interests</h1>
+                <h2>Bring Me The Horizon</h2>
+                <h2>The Neighbourhood</h2>
+                <h2>TENDER</h2>
+                <img id="logoMantra" src="media/logoMantra.png" alt="logoMantra">
             </section>
-            <section class="section" id="about">
-                <h1>About</h1>
-                <h2>Bring Me the Horizon are a British rock band formed in Sheffield in 2004. The group consists of lead
-                    vocalist Oliver Sykes, guitarist Lee Malia, bassist Matt Kean, drummer Matt Nicholls and keyboardist
-                    Jordan Fish. They are signed to RCA Records globally and Columbia Records exclusively in the United
-                    States.</h2>
-                <h2>New Album Released</h2>
-                <h2>Scroll down to buy merch</h2>
-            </section>
-            <section class="section" id="tour">
-                <h1>Tour</h1>
-                <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
-            </section>
-            <section class="section" id="merch">
-                <h1>Merch</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                <div class="square-container">
-                    <div class="square">
-                        <div class="content">
-                            <span>Some centered text</span>
-                        </div>
-                    </div>
-                    <div class="square">
-                        <div class="content spread">
-                        </div>
-                    </div>
-                    <div class="square">
-                        <div class="content column">
-                        </div>
-                    </div>
-                    <div class="square">
-                        <div class="content spread">
-                        </div>
-                    </div>
-                    <div class="square">
-                        <div class="content column">
-                        </div>
-                    </div>
-                    <div class="square">
-                        <div class="content">
-                            <span>Some centered text</span>
-                        </div>
-                    </div>
-                    <div class="square">
-                        <div class="content spread">
-                        </div>
-                    </div>
-                    <div class="square">
-                        <div class="content column">
-                        </div>
-                    </div>
-                    <div class="square">
-                        <div class="content spread">
-                        </div>
-                    </div>
-                    <div class="square">
-                        <div class="content column">
-                        </div>
-                    </div>
-                    <div class="square">
-                        <div class="content column">
-                        </div>
-                    </div>
-                    <div class="square">
-                        <div class="content column">
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="section" id="contact">
+            <section class="section" id="section1">
                 <h1>Contact</h1>
                 <form>
-                    <div>
-                        <label for="inputFirstName">First Name</label>
-                        <input type="text" id="inputFirstName" placeholder="First Name">
-                        <label for="inputLastName">Last Name</label>
-                        <input type="text" id="inputLastName" placeholder="Last Name">
-                    </div>
-                    <div>
-                        <label for="inputAddress">Address</label>
-                        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-                        <label for="inputCity">City</label>
-                        <input type="text" class="form-control" id="inputCity">
-                    </div>
-                    <div>
-                        <label for="inputState">State</label>
-                        <input type="text" class="form-control" id="inputState">
-                        <label for="inputZip">Zip</label>
-                        <input type="text" class="form-control" id="inputZip">
-                    </div>
-                    <div class="form-group">
-                        <input class="form-check-input" type="checkbox" id="gridCheck">
-                        <label class="form-check-label" for="gridCheck">
-                            Subscribe for updates
-                        </label>
-                    </div>
-                    <button type="submit">Sign in</button>
+                    <fieldset>
+                        <div>
+                            <label for="inputFirstName">First Name</label>
+                            <input type="text" id="inputFirstName" placeholder="First Name">
+                        </div>
+                        <div>
+                            <label for="inputLastName">Last Name</label>
+                            <input type="text" id="inputLastName" placeholder="Last Name">
+                        </div>
+                        <div>
+                            <label for="gridCheck">Subscribe for updates</label>
+                            <input type="checkbox" id="gridCheck">
+                        </div>
+                        <div>
+                            <label for="bio">Bio</label>
+                            <textarea id="bio"></textarea>
+                        </div>
+                        <button type="submit">Sign in</button>
+                    </fieldset>
                 </form>
+            </section>
+            <section class="section" id="section3">
+                <h1>Link to the bands websites</h1>
+                <ul>
+                    <li><a href="https://www.bmthofficial.com/">Bring Me The Horizon</a></li>
+                    <li><a href="https://thenbhd.com/">The Neighbourhood</a></li>
+                    <li><a href="https://www.tenderofficial.com/">TENDER</a></li>
+                    <li><a href="https://www.twentyonepilots.com/">Twenty One Pilots</a></li>
+                    <li><a href="https://www.linkinpark.com/">Linkin Park</a></li>
+                </ul>
+            </section>
+            <section class="section" id="section4">
+                <h1>Images</h1>
+                <div class="imgContainer">
+                    <a href="media/logoMantra.png" target="_blank">
+                        <img class="imgAlbum" src="media/logoMantra.png" alt="logoMantra">
+                    </a>
+                    <a href="media/ludens.png" target="_blank">
+                        <img class="imgAlbum" src="media/ludens.png" alt="ludens">
+                    </a>
+                    <a href="media/tender.png" target="_blank">
+                        <img class="imgAlbum" src="media/tender.png" alt="tender">
+                    </a>
+                    <a href="media/top.jpg" target="_blank">
+                        <img class="imgAlbum" src="media/top.jpg" alt="top">
+                    </a>
+                    <a href="media/wiped-out.jpg" target="_blank">
+                        <img class="imgAlbum" src="media/wiped-out.jpg" alt="wiped-out">
+                    </a>
+                    <a href="media/logoMantra.png" target="_blank">
+                        <img class="imgAlbum" src="media/logoMantra.png" alt="logoMantra">
+                    </a>
+                </div>
             </section>
         </div>
     </body>
